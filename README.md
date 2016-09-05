@@ -8,14 +8,16 @@ Combine Word2Vec and Doc2Vec embeddings to create an intelligent, broad search c
 I used 300 dimensional word and document vectors. The data was about 350k tweets that contained 500 disease-related hashtags collected over ten days using the Twitted Streaming API.
 
 By 'broad' search, I mean the search results will include:
-1. Results that don't contain the search term, but is clearly related.
-2. Results that contain definitions of the search term.
-3. Results that contain synonyms, subtypes, associated signs, similar terms of the search term.
+**1.** Results that don't contain the search term, but is clearly related.
+**2.** Results that contain definitions of the search term.
+**3.** Results that contain synonyms, subtypes, associated signs, similar terms of the search term.
 
 This usually works well with large volumes of data (in the millions).
 
 **Modeled in Python**
 
-Note: The examples/screenshots below do not show the top results for each search, because the top results all contain the exact search term (which is nothing special). But as we go down (descending cosine similarity), we begin to see tweets that don't contain the search term, but are still valid results.
+**Note:** The examples/screenshots below do not show the top results for each search, because the top results all contain the exact search term (which is nothing special). But as we go down (descending cosine similarity), we begin to see tweets that don't contain the search term, but are still valid results.
+
+###Examples:
 
 
