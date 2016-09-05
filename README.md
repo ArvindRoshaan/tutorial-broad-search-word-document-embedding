@@ -3,7 +3,7 @@ Combine Word2Vec and Doc2Vec embeddings to create an intelligent, broad search c
 **1.** Similar words occur close together.
 **2.** Similar documents occur close together.
 **3.** In the Doc2Vec DBOW algorithm, by forcing a Word2Vec model to be trained along with the DBOW algorithm, and for relatively smaller sizes of documents (such as in tweets or insurance claim notes), a document containing a word will occur close to the word. 
-**4.** So, all documents broadly or partially related to a word will occur close to the word (which is thesearch query). 
+**4.** So, all documents broadly or partially related to a word will occur close to the word (which is the search query). 
 
 I used 300 dimensional word and document vectors. The data was about 350k tweets that contained 500 disease-related hashtags collected over ten days using the Twitted Streaming API. The tweets have been phrase collocated.
 
