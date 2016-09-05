@@ -32,7 +32,7 @@ This usually works well with large volumes of data (in the millions).
 
 **1.** The examples/screenshots below do not show the top results for each search, because the top results all contain the exact search term (which is nothing special). But as we go down (descending cosine similarity), we begin to see tweets that don't contain the search term, but potentially have the same context as the search query. In the examples below, the results are around the 500th 'closest' tweets to the given search term.
 
-**2.** The 'Context Identified' section is for illustrative purposes only. Although it provides us a good idea of what the context might be, the algorithm **does not** prepare such a list and **then** search for the keywords in that list. Rather, it directly finds the closest document vectors to a given word vector. 
+**2.** The 'Context Identified' section is for illustrative purposes only, and shows the closest word vectors to the search query. Although it provides us a good idea of what the context might be, the algorithm **does not** prepare such a list and **then** search for the keywords in that list. Rather, it directly finds the closest document vectors to a given word vector. 
 
 ![Mosquito](https://github.com/sgrvinod/Implement-a-Broad-Search-Feature-by-Combining-Word-and-Document-Embeddings/blob/master/examples/mosquito.png?raw=true)
 
