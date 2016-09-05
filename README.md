@@ -16,11 +16,9 @@ This usually works well with large volumes of data (in the millions).
 
 **Modeled in Python**
 
-**Note:** The examples/screenshots below do not show the top results for each search, because the top results all contain the exact search term (which is nothing special). But as we go down (descending cosine similarity), we begin to see tweets that don't contain the search term, but are still valid results.
-
 ###Examples:
 
-**Note:** The examples/screenshots below do not show the top results for each search, because the top results all contain the exact search term (which is nothing special). But as we go down (descending cosine similarity), we begin to see tweets that don't contain the search term, but are still valid results.
+**Note:** The examples/screenshots below do not show the top results for each search, because the top results all contain the exact search term (which is nothing special). But as we go down (descending cosine similarity), we begin to see tweets that don't contain the search term, but potentially have the same context as the search query. In the examples below, the results are around the 500th 'closest' tweets to the given search term.
 
 ![Mosquito](https://github.com/sgrvinod/Implement-a-Broad-Search-Feature-by-Combining-Word-and-Document-Embeddings/blob/master/examples/mosquito.png?raw=true)
 
