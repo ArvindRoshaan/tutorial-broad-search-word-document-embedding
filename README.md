@@ -1,5 +1,6 @@
 # Implement-a-Broad-Search-Feature-by-Combining-Word-and-Document-Embeddings
-Combine Word2Vec and Doc2Vec embeddings to create an intelligent, broad search capability. The idea is simple:
+
+**Combine Word2Vec and Doc2Vec embeddings to create an intelligent, broad search capability. The idea is simple:**
 
 **1.** Similar words occur close together.
 
@@ -9,9 +10,9 @@ Combine Word2Vec and Doc2Vec embeddings to create an intelligent, broad search c
 
 **4.** So, all documents broadly or partially related to a word will occur close to the word (which is the search query). 
 
-I used 300 dimensional word and document vectors. The data was about 350k tweets that contained 500 disease-related hashtags collected over ten days using the Twitted Streaming API. The tweets have been phrase collocated.
+**I used 300 dimensional word and document vectors. The data was about 350k tweets that contained 500 disease-related hashtags collected over ten days using the Twitted Streaming API. The tweets have been phrase collocated.**
 
-By 'broad' search, I mean the search results will include:
+**By 'broad' search, I mean the search results will include:**
 
 **1.** Results that don't contain the search term, but is clearly related.
 
